@@ -1,0 +1,13 @@
+# local environment and notebook scratch
+.venv/
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+
+# UN Comtrade data (raw API responses and the cleaned CSVs derived from them) is not committed:
+# Comtrade's terms restrict redistribution. Run the notebook to download and rebuild it.
+data/
+
+# generated charts, and a local fully-executed copy of the notebook (both contain Comtrade-derived results)
+figures/
+*.executed.ipynb
